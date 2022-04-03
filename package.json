@@ -1,0 +1,33 @@
+{
+  "name": "console-colorify",
+  "version": "1.0.0",
+  "description": "console-colorify",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DDking88/console-colorify.git"
+  },
+  "keywords": [
+    "Console logs with colors",
+    "colored logs",
+    "ddking colorify"
+  ],
+  "author": "ddking88 <vermadaksh8899@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DDking88/console-colorify/issues"
+  },
+  "homepage": "https://github.com/DDking88/console-colorify#readme",
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  },
+  "files": [
+    "build/**/*"
+  ]
+}
